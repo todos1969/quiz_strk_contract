@@ -1,0 +1,76 @@
+.quizTitle {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #d6f5d6;
+  margin-right: 15px;
+}
+
+.iconNFT {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #fff700;
+  margin-right: 15px;
+}
+
+.icon2 {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ffcccc;
+  margin-right: 15px;
+}
+
+.questionContainer {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.publishContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.uploadFile {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgray;
+  margin-top: 25px;
+  height: 250px;
+  cursor: pointer;
+  transition-duration: 100ms;
+  border-radius: 5px;
+}
+
+.uploadFile:hover {
+  border: 2px solid black;
+}

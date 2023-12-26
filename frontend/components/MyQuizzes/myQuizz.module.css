@@ -1,0 +1,21 @@
+.quizzesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.quizContainer {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.connectTitle {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
