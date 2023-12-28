@@ -7,7 +7,7 @@ import morgan from "morgan";
 import multer from "multer";
 
 import authRoutes from "./routes/auth.js";
-import quizRoutes from "./routes/quiz.js";
+import quizRoutes from "./routes/quiz.json";
 import { createQuiz } from "./controllers/quiz.js";
 import { verifyToken } from "./middleware/verify.js";
 
