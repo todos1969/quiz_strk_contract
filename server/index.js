@@ -38,7 +38,7 @@ app.use("/quiz", quizRoutes);
 app.post("/quiz/create-quiz", verifyToken, upload.single("image"), createQuiz);
 
 // mongoose setup
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3001;
 
 mongoose
   .connect(process.env.MONGO_URL, {
